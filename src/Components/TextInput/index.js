@@ -122,7 +122,7 @@ class TextInput extends Component{
         else{
             return(
                 <div className={this.props.class}>
-                    <label className="label" htmlFor="lastNameInput">{this.props.label}</label>
+                    <label className="label" htmlFor={this.props.name}>{this.props.label}</label>
                     <Tooltip 
                         classes={{ tooltip: classes.lightTooltip }} 
                         title={this.props.tooltip} 
