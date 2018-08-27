@@ -1,0 +1,37 @@
+.success, .fail{
+    background: #233947;
+    padding: 100px 100px;
+    position: relative;
+}
+.fail{
+    max-height: 400px;
+    height: 100%;
+}
+.user_message{
+    font-size: 30px;
+    color: #FFFFFFFF;
+    font-weight: 100;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 1.42857143;
+    margin-top:120px;
+    text-align: center;
+}
+.success span{
+    font-size: 13px;
+    color: #EB1E56;
+    font-weight: lighter;
+}
+.success img, .fail img{
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.fail span:first-of-type{
+    font-size: 20px;   
+}
+.home{
+    margin-top:20px;
+    color: #FFFFFFFF
+}

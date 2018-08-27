@@ -1,0 +1,14 @@
+.welcome{
+    background: #233947;
+    padding: 100px 100px;
+    position: relative;
+}
+.welcome img{
+    width: 210px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.welcome span:first-of-type{
+    font-size: 20px;   
+}

@@ -1,0 +1,37 @@
+.label{
+    color:#FFFFFF;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 16px;
+  }
+.small-input, ::-webkit-input-placeholder{
+    height: 56px;
+    background: #3F5564;
+    border-radius: 3px;
+    outline: none;
+    opacity: 1;
+    color: #FFFFFFFF;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border:0;  
+  }
+::-webkit-input-placeholder { 
+    opacity: .5;
+  }
+  .user_input{
+    position: relative;
+  }
+  .input_icon{
+    width:24px;
+    position: absolute;
+    right:12px;
+    top: 50%;
+  }
+  .hide{
+    display: none;
+  }
+  .show{
+    display: block;
+  }
+ 
