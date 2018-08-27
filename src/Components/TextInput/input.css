@@ -4,7 +4,7 @@
     letter-spacing: 1px;
     font-size: 16px;
   }
-.small-input, ::-webkit-input-placeholder{
+.small-input, ::placeholder{
     height: 56px;
     background: #3F5564;
     border-radius: 3px;
@@ -16,7 +16,7 @@
     font-weight: 300;
     border:0;  
   }
-::-webkit-input-placeholder { 
+::placeholder { 
     opacity: .5;
   }
   .user_input{
